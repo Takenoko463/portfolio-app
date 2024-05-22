@@ -1,3 +1,6 @@
+import "bootstrap/dist/css/bootstrap.min.css"; // BootstrapのCSSをインポート
+import Card from "react-bootstrap/Card"; // React BootstrapのCardコンポーネントをインポート
+
 function Projects() {
   const projects = [
     {
@@ -52,15 +55,22 @@ function Projects() {
 const Child = ({ title, projectArray }) => {
   const projectList = projectArray.map((project, index) => {
     return (
-      <div class="project" key={index}>
-        <h4>
-          <a href={project.url}>{project.name}</a>
-        </h4>
-        <p>github_url:{project.git_hub_url}</p>
-        <p>{project.content}</p>
-      </div>
+      <Card key={index} className="mb-2">
+        <Card.Body>
+          <Card.Title as="h4">
+            <a href={project.url}>{project.name}</a>
+          </Card.Title>
+          <Card.Link href={project.git_hub_url}>github_url</Card.Link>
+          <Card.Text>{project.content}</Card.Text>
+        </Card.Body>
+      </Card>
     );
   });
-  return <subsection><h3>{title}</h3>{projectList}</subsection>;
+  return (
+    <subsection>
+      <h3>{title}</h3>
+      {projectList}
+    </subsection>
+  );
 };
 export default Projects;
