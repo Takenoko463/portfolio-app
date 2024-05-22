@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css"; // BootstrapのCSSをインポート
 import Card from "react-bootstrap/Card"; // React BootstrapのCardコンポーネントをインポート
+import Row from "react-bootstrap/Row";
 
 function Projects() {
   const projects = [
@@ -25,7 +26,7 @@ function Projects() {
   ];
 
   return (
-    <section className="Projects" id="projects">
+    <Row className="Projects" id="projects">
       <h2>Projects</h2>
 
       <Child title="webApplication" projectArray={projects} />
@@ -49,7 +50,7 @@ function Projects() {
           <p>掲示板が更新されるとメールで通知される</p>
         </div>
       </subsection>
-    </section>
+    </Row>
   );
 }
 const Child = ({ title, projectArray }) => {

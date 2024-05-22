@@ -3,7 +3,6 @@ import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
 import Projects from "./components/Projects";
 import Container from "react-bootstrap/Container";
-import Row from 'react-bootstrap/Row';
 
 function App() {
   return (
@@ -11,9 +10,7 @@ function App() {
       <Header />
       <main>
         <Container fluid="md">
-          <Row>
-            <Projects />
-          </Row>
+          <Projects />
         </Container>
       </main>
       <Footer />
