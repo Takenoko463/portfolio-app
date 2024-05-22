@@ -1,0 +1,58 @@
+{
+  "webApplications": [
+    {
+      "name": "Prompter",
+      "url": "54.199.100.28",
+      "git_hub_url": "https://github.com/Takenoko463/prompter",
+      "content": "ChatGPTなどのテキスト型AIへの質問文を収集するサイトです。idがadmin,passwordは2222です。",
+      "framework_id":5,
+      "infrastructure-management_id":null,
+      "cloud_plat_form_id":3,
+      "programming_language_id":6
+    },
+    {
+      "name": "emotion-analyst-api",
+      "url": "https://emotion-analyst-api-image-jjgaumsera-an.a.run.app/",
+      "git_hub_url": "https://github.com/Takenoko463/emotion-analyst-api",
+      "content": "感情を分析し、円グラフで感情の割合をjson形式で送ります。",
+      "framework_id":4,
+      "infrastructure-management_id":0,
+      "cloud_plat_form_id":1,
+      "programming_language_id":1
+    },
+    {
+      "name": "emotion-analyst-front",
+      "url": "https://emotionanalyzer-c2d45.web.app/",
+      "git_hub_url": "https://github.com/Takenoko463/emotion-analyst-front",
+      "content": "感情を分析し、円グラフで感情の割合を出力するサイトのフロント側です。",
+      "framework_id":2,
+      "infrastructure-management_id":null,
+      "cloud_plat_form_id":2,
+      "programming_language_id":2
+    },
+    {
+      "name": "job-list-api",
+      "url": "#",
+      "git_hub_url": "https://github.com/Takenoko463/job_list_api",
+      "content": "就活の進捗状況を共有するアプリのサーバー側です。",
+      "framework_id":3,
+      "infrastructure-management_id":null,
+      "cloud_plat_form_id":null,
+      "programming_language_id":4
+    }
+  ],
+  "others":[
+    {
+      "name": "find_instagram",
+      "url": "#",
+      "git_hub_url": "https://github.com/Takenoko463/find_instapage",
+      "content": "ホームページにインスタグラムがある会社を探す"
+    },
+    {
+      "name": "checking_board",
+      "url": "#",
+      "git_hub_url": "https://github.com/Takenoko463/cheking_board",
+      "content": "掲示板が更新されるとメールで通知される"
+    }
+  ]
+}

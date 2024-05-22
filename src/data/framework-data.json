@@ -1,0 +1,32 @@
+[
+  {
+    "id":0,
+    "name":"なし",
+    "level":0
+  },
+  {
+    "id":1,
+    "name":"Unity",
+    "level":1
+  },
+  {
+    "id":2,
+    "name":"React",
+    "level":1
+  },
+  {
+    "id":3,
+    "name":"laravel",
+    "level":1
+  },
+  {
+    "id":4,
+    "name":"FastApi",
+    "level":1
+  },
+  {
+    "id":5,
+    "name":"RubyOnRails",
+    "level":2
+  }
+]

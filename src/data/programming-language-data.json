@@ -1,0 +1,37 @@
+[
+  {
+    "id":0,
+    "name":"なし",
+    "level":0
+  },
+  {
+    "id":1,
+    "name":"JavaScript",
+    "level":2
+  },
+  {
+    "id":2,
+    "name":"Python",
+    "level":2
+  },
+  {
+    "id":3,
+    "name":"Ruby",
+    "level":2
+  },
+  {
+    "id":4,
+    "name":"PHP",
+    "level":1
+  },
+  {
+    "id":5,
+    "name":"JAVA",
+    "level":1
+  },
+  {
+    "id":6,
+    "name":"GAS",
+    "level":2
+  }
+]
