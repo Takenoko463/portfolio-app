@@ -1,0 +1,14 @@
+[
+  {
+    "id":0,
+    "name":"Amazon Web Services"
+  },
+  {
+    "id":1,
+    "name":"Google Cloud Platform"
+  },
+  {
+    "id":2,
+    "name":"Firebase"
+  }
+]

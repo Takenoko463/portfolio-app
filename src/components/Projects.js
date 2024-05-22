@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css"; // BootstrapのCSSをインポー
 import Card from "react-bootstrap/Card"; // React BootstrapのCardコンポーネントをインポート
 import Row from "react-bootstrap/Row";
 import projectData from "../data/project-data.json";
+import frameworkData from "../data/framework-data.json";
 function Projects() {
   const webApplications = projectData.webApplications;
   const others = projectData.others;
@@ -28,6 +29,7 @@ const Child = ({ title, projectArray }) => {
           </Card.Title>
           <Card.Link href={project.git_hub_url}>github_url</Card.Link>
           <Card.Text>{project.content}</Card.Text>
+          {project.framework_id && <p>{frameworkData[project.framework_id].name}</p>}
         </Card.Body>
       </Card>
     );
