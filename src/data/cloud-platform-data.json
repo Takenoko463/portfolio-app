@@ -1,7 +1,7 @@
 [
   {
     "id":0,
-    "name":"Amazon Web Services"
+    "name":"なし"
   },
   {
     "id":1,
@@ -10,5 +10,9 @@
   {
     "id":2,
     "name":"Firebase"
+  },
+  {
+    "id":3,
+    "name":"Amazon Web Services"
   }
 ]

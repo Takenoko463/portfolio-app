@@ -7,7 +7,8 @@
       "content": "ChatGPTなどのテキスト型AIへの質問文を収集するサイトです。idがadmin,passwordは2222です。",
       "framework_id":5,
       "infrastructure-management_id":null,
-      "cloud_plat_form_id":0
+      "cloud_plat_form_id":3,
+      "programming_language_id":6
     },
     {
       "name": "emotion-analyst-api",
@@ -16,7 +17,8 @@
       "content": "感情を分析し、円グラフで感情の割合をjson形式で送ります。",
       "framework_id":4,
       "infrastructure-management_id":0,
-      "cloud_plat_form_id":1
+      "cloud_plat_form_id":1,
+      "programming_language_id":1
     },
     {
       "name": "emotion-analyst-front",
@@ -25,7 +27,8 @@
       "content": "感情を分析し、円グラフで感情の割合を出力するサイトのフロント側です。",
       "framework_id":2,
       "infrastructure-management_id":null,
-      "cloud_plat_form_id":2
+      "cloud_plat_form_id":2,
+      "programming_language_id":2
     },
     {
       "name": "job-list-api",
@@ -34,7 +37,8 @@
       "content": "就活の進捗状況を共有するアプリのサーバー側です。",
       "framework_id":3,
       "infrastructure-management_id":null,
-      "cloud_plat_form_id":null
+      "cloud_plat_form_id":null,
+      "programming_language_id":4
     }
   ],
   "others":[
