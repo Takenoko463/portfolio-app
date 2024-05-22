@@ -4,6 +4,7 @@ import Footer from "./layouts/Footer";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Container from "react-bootstrap/Container";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Container fluid="md">
           <About />
           <Projects />
+          <Skills />
         </Container>
       </main>
       <Footer />

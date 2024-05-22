@@ -58,7 +58,7 @@ const WebApplicationChild = ({ title, projectArray }) => {
               <Tab.Pane eventKey="detail">
                 <ListGroup variant="flush">
                   <ListGroup.Item>
-                  <span>フレイムワーク:</span>
+                  <span>フレームワーク:</span>
                     {project.framework_id && (
                       <span>{frameworkData[project.framework_id].name}</span>
                     )}
