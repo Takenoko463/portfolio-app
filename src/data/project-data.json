@@ -12,7 +12,7 @@
     },
     {
       "name": "Prompter",
-      "url": "54.199.100.28",
+      "url": "http://54.199.100.28",
       "git_hub_url": "https://github.com/Takenoko463/prompter",
       "content": "ChatGPTなどのテキスト型AIへの質問文を収集するサイトです。idがadmin,passwordは2222です。",
       "framework_id":5,
