@@ -42,13 +42,23 @@
     },
     {
       "name": "job-hunting-api",
-      "url": "http://43.207.6.215",
+      "url": "http://43.207.6.215/api/greeting",
       "git_hub_url": "https://github.com/Takenoko463/job-hunting-api",
       "content": "就活の進捗状況を共有するアプリのサーバー側です。",
       "framework_id":3,
       "infrastructure-management_id":null,
-      "cloud_plat_form_id":null,
+      "cloud_plat_form_id":3,
       "programming_language_id":4
+    },
+    {
+      "name": "job-hunting-status-list",
+      "url": "http://43.207.6.215",
+      "git_hub_url": "https://github.com/Takenoko463/job-hunting-front",
+      "content": "就活の進捗状況を共有するアプリのフロント側です。",
+      "framework_id":2,
+      "infrastructure-management_id":null,
+      "cloud_plat_form_id":3,
+      "programming_language_id":5
     }
   ],
   "others":[
