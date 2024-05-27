@@ -41,9 +41,9 @@
       "programming_language_id":1
     },
     {
-      "name": "job-list-api",
-      "url": "#",
-      "git_hub_url": "https://github.com/Takenoko463/job_list_api",
+      "name": "job-hunting-api",
+      "url": "http://43.207.6.215",
+      "git_hub_url": "https://github.com/Takenoko463/job-hunting-api",
       "content": "就活の進捗状況を共有するアプリのサーバー側です。",
       "framework_id":3,
       "infrastructure-management_id":null,
